@@ -1,20 +1,71 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#74172a"><meta name="description" content="Покупай и продавай одежду в хорошем состоянии в Telegram-канале Secondland.">
-  <title>Secondland — дай вещам вторую жизнь</title>
-  <style>
-    :root{--wine:#74172a;--wine2:#4b1020;--cream:#fff8f0;--ink:#321711;--rose:#f2dfd2;--muted:#735c53}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial, sans-serif}a{color:inherit;text-decoration:none}.serif{font-family:Georgia,'Times New Roman',serif}.container{width:min(1180px,92%);margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0}.brand{font: bold 27px Georgia,serif;display:flex;gap:10px;align-items:center}.hanger{font-size:28px;color:var(--wine)}nav{display:flex;gap:28px;font-size:14px;font-weight:600}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:15px 24px;background:var(--wine);color:white;font-weight:700;box-shadow:0 8px 22px #74172a2b;transition:.2s}.btn:hover{background:var(--wine2);transform:translateY(-2px)}.btn.outline{background:transparent;color:var(--wine);border:1.5px solid var(--wine);box-shadow:none}.hero{overflow:hidden;position:relative;background:radial-gradient(ellipse at 80% 32%,#efd2bd 0,transparent 45%),linear-gradient(115deg,#fff8f0 42%,#f3dfd1);border-radius:0 0 46px 46px}.hero-grid{min-height:590px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:25px;padding:38px 0 55px}.eyebrow{color:var(--wine);font-size:12px;font-weight:800;letter-spacing:.18em}.hero h1{font: bold clamp(44px,6vw,76px)/.98 Georgia,serif;letter-spacing:-.04em;margin:18px 0}.hero h1 em{color:var(--wine)}.hero p{font-size:20px;line-height:1.5;max-width:510px}.benefits{display:flex;gap:20px;margin-top:26px;color:#52392f;font-size:14px}.hero-art{position:relative;min-height:450px;display:flex;align-items:center;justify-content:center}.hero-art:before{content:"";position:absolute;width:390px;height:390px;border-radius:50%;background:#e7c5b1}.hero-art img{position:relative;z-index:1;width:min(100%,450px);border-radius:26px;box-shadow:0 24px 60px #40132130}.section{padding:78px 0}.section h2{text-align:center;font: bold clamp(32px,4vw,48px) Georgia,serif;margin:0 0 35px}.section h2 em{color:var(--wine)}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:linear-gradient(145deg,#fffaf4,#f6e4d8);border:1px solid #f0d8c9;border-radius:22px;padding:26px 18px;text-align:center;box-shadow:0 8px 22px #4a20110b}.icon{font-size:36px;color:var(--wine);margin-bottom:12px}.card h3{font-size:18px;margin:0;line-height:1.35}.center-cta{text-align:center;margin-top:28px}.how{background:linear-gradient(180deg,#f6e7dc,#fff8f0)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{position:relative;text-align:center;padding:20px 14px}.num{margin:auto auto 16px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--wine);color:white;font:bold 23px Georgia,serif;box-shadow:0 0 0 5px #fff}.step .icon{font-size:34px}.step h3{font-size:17px;margin:5px 0}.step p{color:var(--muted);font-size:14px;line-height:1.45;margin:0}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{background:white;border-radius:20px;padding:23px;box-shadow:0 10px 30px #4a201114;border:1px solid #f3e2d7}.review-head{display:flex;align-items:center;gap:12px;margin-bottom:15px}.avatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#f0d4c5;color:var(--wine);font-weight:800}.review strong{font-size:15px}.review small{display:block;color:var(--muted);margin-top:4px}.review p{font:17px/1.5 Georgia,serif;margin:0}.sample{font:11px Arial,sans-serif;color:#80685e;margin-top:14px}.final{margin:15px auto 70px;padding:44px 7%;border-radius:30px;background:linear-gradient(110deg,#74172a,#4c1021);color:white;display:flex;align-items:center;justify-content:space-between;gap:30px;overflow:hidden}.final h2{font:bold clamp(28px,4vw,44px) Georgia,serif;margin:0 0 12px}.final p{font-size:17px;margin:0 0 22px}.final .btn{background:var(--cream);color:var(--wine)}footer{text-align:center;padding:20px;background:var(--wine);color:white;font-weight:700}.mobile-cta{display:none}@media(max-width:800px){nav{display:none}.hero-grid{grid-template-columns:1fr;padding:45px 0 40px;text-align:center}.hero p{margin:0 auto}.benefits{justify-content:center;flex-wrap:wrap}.hero-art{min-height:340px}.hero-art:before{width:300px;height:300px}.hero-art img{max-width:340px}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.reviews{grid-template-columns:1fr}.final{display:block;text-align:center}.final .btn{margin-top:8px}}@media(max-width:500px){.topbar{padding:14px 0}.brand{font-size:22px}.topbar>.btn{padding:11px 15px;font-size:13px}.hero h1{font-size:47px}.hero p{font-size:17px}.section{padding:55px 0}.cards{gap:10px}.card{padding:20px 10px}.card h3{font-size:15px}.steps{gap:5px}.step{padding:15px 5px}.mobile-cta{display:block;position:sticky;bottom:10px;margin:0 auto 10px;width:max-content;z-index:3}.container{width:91%}}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7d1f2b">
+  <meta name="description" content="SecondLand — покупай стильную одежду по приятным ценам и продавай вещи, которые больше не носишь.">
+  <title>SecondLand — дай одежде вторую жизнь</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="container topbar"><a class="brand" href="#top"><span class="hanger">♧</span> Secondland</a><nav><a href="#why">Преимущества</a><a href="#how">Как это работает</a><a href="#reviews">Отзывы</a></nav><a class="btn" href="https://t.me/+p5Xw3fURT_MxN2My">➤ В Telegram</a></header>
+  <header class="site-header wrap">
+    <a class="brand" href="#top" aria-label="SecondLand — главная">
+      <span class="brand-mark" aria-hidden="true">⌑</span>
+      <span><strong>Second<span>Land</span></strong><small>ПЕРЕПРОДАЖА ОДЕЖДЫ</small></span>
+    </a>
+    <span class="location">● Узбекистан</span>
+  </header>
+
   <main id="top">
-    <section class="hero"><div class="container hero-grid"><div><div class="eyebrow">ОДЕЖДА С ИСТОРИЕЙ</div><h1>Дай вещам<br>вторую жизнь —<br><em>заработай на новой!</em></h1><p>Покупай и продавай одежду в хорошем состоянии — просто в Telegram-канале Secondland.</p><a class="btn" href="https://t.me/+p5Xw3fURT_MxN2My">➤ Перейти в Telegram <span>→</span></a><div class="benefits"><span>♻ Выгодно</span><span>♡ Осознанно</span><span>✓ Удобно</span></div></div><div class="hero-art"><img src="secondland-landing.png" alt="Подборка одежды и аксессуаров Secondland"></div></div></section>
-    <section class="section container" id="why"><h2>Почему выбирают <em>Secondland?</em></h2><div class="cards"><article class="card"><div class="icon">♧</div><h3>Продай ненужные вещи</h3></article><article class="card"><div class="icon">◉</div><h3>Заработай на продаже</h3></article><article class="card"><div class="icon">◇</div><h3>Находи выгодные предложения</h3></article><article class="card"><div class="icon">❧</div><h3>Покупай осознанно</h3></article></div><div class="center-cta"><a class="btn outline" href="https://t.me/+p5Xw3fURT_MxN2My">➤ Найди свою находку в Telegram →</a></div></section>
-    <section class="section how" id="how"><div class="container"><h2>Как это работает?</h2><div class="steps"><article class="step"><div class="num">1</div><div class="icon">＋</div><h3>Размести вещь в канале</h3><p>Покажи вещь и расскажи о её состоянии.</p></article><article class="step"><div class="num">2</div><div class="icon">⌕</div><h3>Найди покупателя</h3><p>Заинтересованный покупатель свяжется с тобой.</p></article><article class="step"><div class="num">3</div><div class="icon">₽</div><h3>Договорись и получи оплату</h3><p>Обсудите детали напрямую.</p></article><article class="step"><div class="num">4</div><div class="icon">♡</div><h3>Выбери что-то новое</h3><p>Найди вещь, которая подойдёт именно тебе.</p></article></div><div class="center-cta"><a class="btn" href="https://t.me/+p5Xw3fURT_MxN2My">Попробовать в Telegram →</a></div></div></section>
-    <section class="section container" id="reviews"><h2>Отзывы участников</h2><div class="reviews"><article class="review"><div class="review-head"><div class="avatar">М</div><div><strong>Мадина</strong><small>Продавец</small></div></div><p>«Продала пальто, которое давно не носила. Рада, что оно пригодилось кому-то ещё!»</p><div class="sample">Пример текста отзыва — замените реальным</div></article><article class="review"><div class="review-head"><div class="avatar">З</div><div><strong>Зарина</strong><small>Покупатель</small></div></div><p>«Нашла классную вещь в хорошем состоянии. Люблю, когда удачная находка получает новую историю.»</p><div class="sample">Пример текста отзыва — замените реальным</div></article><article class="review"><div class="review-head"><div class="avatar">А</div><div><strong>Алишер</strong><small>Покупатель и продавец</small></div></div><p>«Понравилась идея: можно освободить шкаф и найти что-то интересное для себя.»</p><div class="sample">Пример текста отзыва — замените реальным</div></article></div><div class="center-cta"><a class="btn outline" href="https://t.me/+p5Xw3fURT_MxN2My">Убедиться самому — перейти в Telegram →</a></div></section>
-    <section class="container final"><div><h2>Твоя ненужная вещь может стать чьей-то находкой!</h2><p>Присоединяйся к Secondland и дай вещам вторую жизнь.</p><a class="btn" href="https://t.me/+p5Xw3fURT_MxN2My">➤ Присоединиться к Secondland →</a></div></section>
-  </main><a class="btn mobile-cta" href="https://t.me/+p5Xw3fURT_MxN2My">➤ Перейти в Telegram</a><footer><a href="https://t.me/+p5Xw3fURT_MxN2My">Перейти в Telegram ↑</a></footer>
-</body></html>
+    <section class="hero section wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Одежда заслуживает второго шанса</p>
+        <h1>Дай своей одежде <em>вторую жизнь</em></h1>
+        <p class="lead"><b>SecondLand</b> — Telegram-площадка, где можно выгодно купить стильные вещи или продать то, что больше не носишь.</p>
+        <div class="hero-actions">
+          <a class="cta" data-telegram href="https://t.me/+p5Xw3fURT_MxN2My" target="_blank" rel="noopener"><span class="telegram-icon">➤</span> Перейти в Telegram <span class="arrow">↗</span></a>
+          <span class="microcopy">Найди вещь для себя или освободи место в шкафу</span>
+        </div>
+      </div>
+      <div class="hero-visual"><img src="assets/hero-clothes.png" alt="Подборка одежды на вешалках в бордовых и нейтральных оттенках"></div>
+      <div class="hero-note"><span>01</span> Покупай · Продавай · Обновляй гардероб</div>
+    </section>
+
+    <section class="benefits section">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Больше, чем просто объявления</p>
+          <h2>Почему стоит подписаться на <em>SecondLand?</em></h2>
+          <p>Здесь хорошие вещи находят новых владельцев, а у тебя появляется больше возможностей.</p>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit-card"><span class="card-icon">◇</span><h3>Выгодные покупки</h3><p>Ищи одежду и аксессуары по приятным ценам.</p></article>
+          <article class="benefit-card"><span class="card-icon">↗</span><h3>Продажа ненужного</h3><p>Выставляй вещи в хорошем состоянии и находи покупателей.</p></article>
+          <article class="benefit-card"><span class="card-icon">⟳</span><h3>Вторая жизнь вещам</h3><p>Не выбрасывай то, что ещё может кому-то пригодиться.</p></article>
+          <article class="benefit-card"><span class="card-icon">✦</span><h3>Новые находки</h3><p>Заглядывай в канал, чтобы не пропустить интересные объявления.</p></article>
+        </div>
+        <div class="mid-cta"><div><strong>Твоя следующая находка уже может ждать тебя</strong><span>Посмотри актуальные предложения в канале</span></div><a class="cta cta-light" data-telegram href="https://t.me/+p5Xw3fURT_MxN2My" target="_blank" rel="noopener">Смотреть вещи <span class="arrow">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="trust section wrap">
+      <div class="trust-heading"><p class="eyebrow">Сообщество SecondLand</p><h2>Покупай с интересом.<br><em>Продавай с пользой.</em></h2><p>Присоединяйся к тем, кто выбирает разумное потребление и даёт качественным вещам новую историю.</p></div>
+      <div class="review-area">
+        <div class="review-intro"><span class="quote-mark">“</span><div><h3>Твоё мнение важно</h3><p>Уже совершал покупку или продажу через SecondLand? Поделись впечатлением — твой отзыв поможет другим участникам сообщества.</p></div></div>
+        <a class="review-link" data-telegram href="https://t.me/+p5Xw3fURT_MxN2My" target="_blank" rel="noopener">Перейти в канал и познакомиться с SecondLand <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap final-inner"><p class="eyebrow">Не откладывай хорошую находку</p><h2>Освободи шкаф.<br><em>Найди что-то своё.</em></h2><p>Переходи в SecondLand — покупай и продавай одежду в одном месте.</p><a class="cta" data-telegram href="https://t.me/+p5Xw3fURT_MxN2My" target="_blank" rel="noopener"><span class="telegram-icon">➤</span> Присоединиться к SecondLand <span class="arrow">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap"><a class="brand brand-small" href="#top"><strong>Second<span>Land</span></strong></a><span>Дай хорошим вещам вторую жизнь.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
