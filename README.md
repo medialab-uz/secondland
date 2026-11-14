@@ -1,21 +1,12 @@
-# SecondLend — лендинг
+# Secondland
 
-Адаптивный сайт для GitHub Pages. Сборка не требуется.
-
-## Файлы
-- `index.html` — главная страница.
-- `privacy.html` — шаблон политики конфиденциальности.
-- `assets/README.txt` — инструкция по отзывам.
+Одностраничный лендинг Secondland для GitHub Pages.
 
 ## Перед публикацией
-1. Telegram-ссылка уже установлена во всех CTA: `https://t.me/+p5Xw3fURT_MxN2My`.
-2. Добавьте реальные скриншоты `review-1.jpg`, `review-2.jpg`, `review-3.jpg` в `assets/`. Не используйте вымышленные отзывы.
-3. Заполните владельца и контакт в `privacy.html`.
-4. Meta Pixel ID: `1701137841542210`. Он запускается только после согласия. `Lead` фиксирует клик, а не подтверждённую подписку.
 
-## GitHub Pages
-1. Создайте репозиторий `secondlend-landing`.
-2. Загрузите содержимое папки `SecondLend-Updated` в корень репозитория.
-3. Откройте Settings → Pages → Deploy from a branch.
-4. Выберите ветку `main` и папку `/(root)`, нажмите Save.
-5. Дождитесь публикации — адрес появится в разделе Pages.
+Ссылка на Telegram-канал уже добавлена в `index.html`.
+
+## Публикация
+
+Загрузите `index.html` и `secondland-landing.png` в GitHub-репозиторий и включите GitHub Pages для основной ветки, корневая папка `/`.
+
